@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Table tennis - Home</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+  <body>
+    <nav class="navbar-top" id="myNavbar">
+      <a href="/">Home</a>
+      <a href="benefits.html" class="red-buttom">Benefits</a>
+      <a href="contacts.html" class="yellow-button">Contact</a>
+      <a href="about.html" class="orange-button">About</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon green button" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <br><br>
+    <h1>  <i class="fas fa-camera-retro"></i>Home</h1>
+    <p>The art of living a fufilling life can be a tough one sometimes, but also an important task to manage. The concept could be easie but get difficult to accomplish. Sometimes there is the pleasent thought of something but you realize that it is not just you. Why not try something new that you can start at any level, with or without someone, set goals for yourself and make new friends with a common interest.   </p>
+    <img src="images/pexels-photo-569986.jpeg" alt="A visual representation of a bat and a ball">
+   <img src="images/pexels-photo-708440.jpeg" alt="A visual representation of a group of friends">
+  <script>
+
+   function myFunction() {
+     var x = document.getElementById("myNavbar");
+     if (x.className === "navbar-top") {
+       x.className += " responsive";
+     } else {
+       x.className = "topnav";
+     }
+   }
+  </script>
+
+  </body>
+</html>
